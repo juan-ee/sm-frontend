@@ -1,10 +1,11 @@
 import StateDisplay from './StateDisplay';
+import AlarmComponent from "./AlarmComponent";
 
 const App = () => {
   return (
       <div>
-        <h1>State Display</h1>
-        <StateDisplay />
+        {/*<StateDisplay />*/}
+        <AlarmComponent />
       </div>
   );
 };
